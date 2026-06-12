@@ -1,0 +1,13 @@
+.text {
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 12px;
+
+    &.win {
+        color: #039900;
+    }
+
+    &.lose {
+        color: #900;
+    }
+}

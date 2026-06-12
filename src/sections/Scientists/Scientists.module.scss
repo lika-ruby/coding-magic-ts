@@ -1,0 +1,45 @@
+.list {
+    display: flex;
+    gap: 36px 59px;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: center;
+    margin: 0 auto 48px;
+}
+
+.item {
+    border-radius: 20px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d9;
+}
+
+.name {
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+}
+
+.years {
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 170%;
+    color: #000;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 36px;
+    max-width: 791px;
+    margin: 0 auto;
+}
